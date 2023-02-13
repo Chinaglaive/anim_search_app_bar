@@ -57,7 +57,7 @@ class AnimSearchAppBarView extends AnimSearchAppBarViewModel {
                             hintText: widget.hintText,
                             hintStyle: widget.hintStyle ?? Theme.of(context).inputDecorationTheme.hintStyle,
                             labelStyle: widget.labelStyle ?? Theme.of(context).inputDecorationTheme.labelStyle,
-                            fillColor: Colors.white,
+                            fillColor: Colors.grey.shade200,
                             filled: true,
                             prefixIcon: widget.prefixIcon ??
                                 Icon(
